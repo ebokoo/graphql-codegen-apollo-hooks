@@ -1,0 +1,65 @@
+{
+  "name": "@ebokoo/apollo-hooks",
+  "version": "1.0.0",
+  "description": "GraphQL Code Generator plugin that generates Apollo Client v4 hooks with full type inference. Replacement for deprecated typescript-react-apollo",
+  "keywords": [
+    "graphql",
+    "codegen",
+    "graphql-codegen",
+    "apollo",
+    "apollo-client",
+    "apollo-client-v4",
+    "hooks",
+    "react",
+    "usequery",
+    "usemutation",
+    "usesubscription",
+    "typescript",
+    "typed",
+    "auto-generated-hooks",
+    "graphql-hooks",
+    "react-hooks",
+    "type-safety",
+    "type-safe",
+    "replace-typescript-react-apollo"
+  ],
+  "homepage": "https://github.com/ebokoo/graphql-codegen-apollo-hooks#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ebokoo/graphql-codegen-apollo-hooks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ebokoo/graphql-codegen-apollo-hooks/issues"
+  },
+  "author": {
+    "name": "Ebo",
+    "email": "ebo@softonus.com",
+    "url": "https://github.com/ebokoo"
+  },
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "@apollo/client": ">=4.0.0",
+    "graphql": ">=16.0.0"
+  },
+  "dependencies": {
+    "@graphql-codegen/plugin-helpers": "^5.0.0",
+    "@graphql-codegen/visitor-plugin-common": "^5.0.0",
+    "@graphql-tools/utils": "^10.0.0"
+  },
+  "devDependencies": {
+    "@apollo/client": "^4.1.6",
+    "@types/node": "^22.0.0",
+    "graphql": "^16.13.1",
+    "typescript": "^5.0.0"
+  }
+}
