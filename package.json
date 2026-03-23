@@ -1,5 +1,5 @@
 {
-  "name": "@graphql-codegen/apollo-hooks",
+  "name": "@softonus/apollo-hooks",
   "version": "1.0.0",
   "description": "GraphQL Code Generator plugin that generates Apollo Client v4 hooks with full type inference. Replacement for deprecated typescript-react-apollo",
   "keywords": [
